@@ -1,0 +1,168 @@
+body {
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  height: 45px;
+  width: 100%;
+  background-color: #ffd700;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header-logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+span {
+  color: #eb8787;
+}
+
+main {
+  height: 700px;
+  padding: 100px 80px;
+  background-color: #fffff0;
+}
+
+input{
+  display: block;
+  border: 1px solid #aaa;
+  font-size: 20px;
+  height: 55px;
+  width: 380px;
+  padding: 10px 50px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: 80px;
+  margin-left: auto;
+}
+
+::placeholder {
+  color: darkgray;
+}
+
+.button {
+  display: block;
+  padding: 15px 125px;
+  color: #fff;
+  text-decoration :none;
+  background: #eb8787;
+  box-shadow: 3px 3px #ffbe75;
+  transition: .3s;
+}
+
+.button:hover {
+  box-shadow: 1px 1px #ffbe75;
+}
+
+/*以下、①背景色など*/
+.line-bc {
+  padding: 20px 10px;
+  max-width: 450px;
+  margin: 40px auto;
+  text-align: right;
+  font-size: 14px;
+  background: #7da4cd;
+
+}
+
+/*以下、②左側のコメント*/
+.balloon6 {
+  width: 100%;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.balloon6 .faceicon {
+  float: left;
+  margin-right: -50px;
+  width: 40px;
+}
+
+.balloon6 .faceicon img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.balloon6 .chatting {
+  width: 100%;
+  text-align: left;
+}
+.says {
+  display: inline-block;
+  position: relative;
+  margin: 0 0 0 50px;
+  padding: 10px;
+  max-width: 250px;
+  border-radius: 12px;
+  background: #edf1ee;
+}
+
+.says:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  left: -19px;
+  border: 8px solid transparent;
+  border-right: 18px solid #edf1ee;
+  -ms-transform: rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+.says p {
+  margin: 0;
+  padding: 0;
+}
+
+/*以下、③右側の緑コメント*/
+.mycomment {
+  margin: 10px 0;
+}
+
+.mycomment p {
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  margin: 0 10px 0 0;
+  padding: 8px;
+  max-width: 250px;
+  border-radius: 12px;
+  background: #30e852;
+  font-size: 15px:
+}
+
+.mycomment p:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: -19px;
+  border: 8px solid transparent;
+  border-left: 18px solid #30e852;
+  -ms-transform: rotate(-35deg);
+  -webkit-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+
+.footer-upward {
+  height: 30px;
+  width: 100%;
+  background-color: #222831;
+  margin-top: 0;
+}
+
+.footer-lower {
+  height: 150px;
+  width: 100%;
+  background-color: #393e46;
+}

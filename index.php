@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Shiranai-furi</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <!--          header          -->
+  <header>
+    <div class="header-logo">
+      <a href="/Shiranaifuri">知らないふり <span>メーカー</span></a>
+    </div>
+  </header>
+  <!--          main          -->
+  <main>
+    <div class="entry">
+      <form method="POST" action="show.php">
+        <input type="text" name="which" placeholder="どこに行く予定だった？" required/>
+        <input type="text" name="where" placeholder="今どこにいる？" required/>
+        <input type="text" name="what" placeholder="何をしている最中？" required/>
+        <input type="submit" class="button" value="建設" />
+      </form>
+    </div>
+  </main>
+  <!--          footer          -->
+  <footer>
+    <div class="footer-upward"></div>
+    <div class="footer-lower"></div>
+  </footer>
+</body>
+</html>
