@@ -8,7 +8,7 @@ $now_what = $_POST["what"];
 <html lang="ja" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheet.css">
   <title>Shiranai-furi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="responsive.css">
@@ -17,7 +17,7 @@ $now_what = $_POST["what"];
   <!--          header          -->
   <header>
     <div class="header-logo">
-      <a href="/Shiranaifuri">知らないふり <span>メーカー</span></a>
+      <a href="./index.html">知らないふり <span>メーカー</span></a>
     </div>
   </header>
   <!--          main          -->
